@@ -18,6 +18,13 @@ a:hover {
     cursor: pointer;
 }
 
+.citation{
+    font-style: italic;
+    font-weight: 500;
+    font-size: 20px;
+
+}
+
 #page-loading-blocs-notifaction {
     position: fixed;
     top: 0;
