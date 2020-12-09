@@ -785,6 +785,7 @@ h4 {
     color: #ffffff!important;
 }
 
+
 .btn-atomic-tangerine {
     background: #a34418;
     color: #FFFFFF!important;
@@ -831,6 +832,11 @@ h4 {
 .bg-presentation {
     background-image: url("img/image-de-presentation.jpg");
 }
+
+.form-group{
+    padding: 1vh;
+}
+
 
 @media (max-width: 1024px) {
     .bloc {
