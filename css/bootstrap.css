@@ -1598,7 +1598,8 @@ h1 {
 
 .h2,
 h2 {
-    font-size: 30px
+    font-size: 26px;
+    font-weight: 300;
 }
 
 .h3,
