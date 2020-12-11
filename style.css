@@ -375,6 +375,10 @@ a:hover {
         display: none;
     }
 
+    .fa-envelope{
+        display: none;
+    }
+
     .site-navigation {
         position: absolute;
         top: 50%;
@@ -920,8 +924,8 @@ h4 {
     h6,
     p,
     #disqus_thread {
-        padding-left: 10px!important;
-        padding-right: 10px!important;
+        padding-left: 1.5em!important;
+        padding-right: 1.5em!important;
     }
     .b-parallax {
         background-attachment: scroll;
@@ -1058,6 +1062,14 @@ h4 {
         text-align: center;
     }
 
+    .tight-width-whitespace.portfolio-row{
+        max-width: 320px;
+    }
+
+    p{
+        font-size: 14px;
+    }
+
     .fa-home{
         top: 1em;
         color: #555555;
@@ -1067,7 +1079,18 @@ h4 {
 
     .fa-home:hover{
         font-size: 1.6em;
-
+        color: #000000;
     }
 
+    .fa-envelope{
+        top: 0.8em;
+        color: #555555;
+        font-size: 1.5em;
+        transition: ease-out 0.3s;
+    }
+
+    .fa-envelope:hover{
+        font-size: 1.6em;
+        color: #000000;
+    }
 }
