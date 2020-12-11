@@ -370,6 +370,11 @@ a:hover {
 }
 
 @media (min-width: 768px) {
+
+    .fa-home{
+        display: none;
+    }
+
     .site-navigation {
         position: absolute;
         top: 50%;
@@ -1052,4 +1057,17 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+
+    .fa-home{
+        top: 1em;
+        color: #555555;
+        font-size: 1.5em;
+        transition: ease-out 0.3s;
+    }
+
+    .fa-home:hover{
+        font-size: 1.6em;
+
+    }
+
 }
