@@ -372,11 +372,11 @@ a:hover {
 @media (min-width: 768px) {
 
     .fa-home{
-        display: none;
+        display: none !important;
     }
 
     .fa-envelope{
-        display: none;
+        display: none !important;
     }
 
     .site-navigation {
@@ -1075,6 +1075,7 @@ h4 {
         color: #555555;
         font-size: 1.5em;
         transition: ease-out 0.3s;
+        display:block;
     }
 
     .fa-home:hover{
@@ -1087,6 +1088,7 @@ h4 {
         color: #555555;
         font-size: 1.5em;
         transition: ease-out 0.3s;
+        display: block;
     }
 
     .fa-envelope:hover{
